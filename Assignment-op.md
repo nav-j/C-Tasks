@@ -1,0 +1,105 @@
+## **Task: Assignment Operators in C**
+
+### **Task 1: Simple Assignment (`=`)**
+
+```c
+int main() {
+    int x = 10;
+    x = x + 5;
+    printf("%d", x);
+    return 0;
+}
+```
+
+---
+
+### **Task 2: Add Assignment (`+=`)**
+
+```c
+int main() {
+    int a = 8;
+    a += 12;
+    printf("%d", a);
+    return 0;
+}
+```
+
+---
+
+### **Task 3: Subtract Assignment (`-=`)**
+
+```c
+int main() {
+    int x = 20;
+    x -= 7;
+    printf("%d", x);
+    return 0;
+}
+```
+
+---
+
+### **Task 4: Multiply Assignment (`*=`)**
+
+```c
+int main() {
+    int p = 6;
+    p *= 4;
+    printf("%d", p);
+    return 0;
+}
+```
+
+---
+
+### **Task 5: Divide Assignment (`/=`)**
+
+```c
+int main() {
+    int y = 25;
+    y /= 4;
+    printf("%d", y);
+    return 0;
+}
+```
+
+---
+
+### **Task 6: Modulus Assignment (`%=`)**
+
+```c
+int main() {
+    int x = 29;
+    x %= 6;
+    printf("%d", x);
+    return 0;
+}
+```
+
+---
+
+### **Task 7: Mixed Assignment Operators**
+
+```c
+int main() {
+    int a = 5;
+    a += 3;
+    a *= 2;
+    a -= 4;
+    printf("%d", a);
+    return 0;
+}
+```
+
+---
+
+### **Task 8: Bitwise Assignment**
+
+```c
+int main() {
+    int x = 12;
+    x <<= 2;
+    printf("%d", x);
+    return 0;
+}
+```
